@@ -14,7 +14,8 @@ import NavigationScroll from 'layout/NavigationScroll';
 
 // ==============================|| APP ||============================== //
 
-const App = () => {
+const App = () =>
+{
     const customization = useSelector((state) => state.customization);
 
     return (
@@ -30,3 +31,6 @@ const App = () => {
 };
 
 export default App;
+
+
+////Testing to see git works
